@@ -15,7 +15,9 @@ from food_rules import apply_food_only_hashtags
 
 def main():
     # 1) Load workbook and drop the master sheet
+    print("🕑  About to load workbook:", INPUT_FILE, flush=True)
     xls = pd.ExcelFile(INPUT_FILE)
+    print("✅  Workbook loaded; sheets:", xls.sheet_names, flush=True)
     sheet_names = [
         name for name in xls.sheet_names
         if name not in ("MasterSheet", "Final MasterSheet", "Sheet1","master_sheet")

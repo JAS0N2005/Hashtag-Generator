@@ -9,8 +9,8 @@ FINAL_MASTER_SHEET_NAME = "Final MasterSheet"
 # Name to assign to the consolidated food sheet
 
 # ─── File Paths ───────────────────────────────────────────────────────────────
-INPUT_FILE  = r"G:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Sudip Paul\Ready to create hashtags\Cleaned Chicago Data.xlsx"
-OUTPUT_FILE = r"G:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Subhojyoti\Hashtags Completed Data\FINAL Chicago.xlsx"
+INPUT_FILE  = r"I:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Sudip Paul\Ready to create hashtags\Cleaned Marseille Data.xlsx"
+OUTPUT_FILE = r"I:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Subhojyoti\Hashtags Completed Data\FINAL Marseille.xlsx"
 
 # Map of “dominant” hashtags → a set of hashtags to remove when the dominant one is present
 CONFLICT_HASHTAG_MAP = {
@@ -245,7 +245,7 @@ CONTENT_RULES = {
     "interactive exhibitions": ["#InteractiveExhibitions"],
     "exhibition and trade centre": ["#Exhibitions","#TradeCenter"],
     "exhibition":          ["#Exhibitions"],
-    "exhibits":            ["#Exhibits"],
+    "exhibit":            ["#Exhibits"],
 
     # ─── Arts & Culture ────────────────────────────────────────────────
     "art":                 ["#Art", "#Culture"],
