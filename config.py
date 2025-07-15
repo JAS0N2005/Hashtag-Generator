@@ -9,8 +9,8 @@ FINAL_MASTER_SHEET_NAME = "Final MasterSheet"
 # Name to assign to the consolidated food sheet
 
 # ─── File Paths ───────────────────────────────────────────────────────────────
-INPUT_FILE  = r"H:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Sudip Paul\Ready to create hashtags\ExtraHashtags\Cleaned Malapurram data.xlsx"
-OUTPUT_FILE = r"H:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Subhojyoti\Hashtags Completed Data\FINAL Malappuram.xlsx"
+INPUT_FILE  = r"G:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Sudip Paul\Ready to create hashtags\Cleaned Chicago Data.xlsx"
+OUTPUT_FILE = r"G:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Subhojyoti\Hashtags Completed Data\FINAL Chicago.xlsx"
 
 # Map of “dominant” hashtags → a set of hashtags to remove when the dominant one is present
 CONFLICT_HASHTAG_MAP = {
@@ -44,7 +44,7 @@ CONFLICT_HASHTAG_MAP = {
 # ─── Keywords for Identifying Food Sheets ────────────────────────────────────
 FOOD_SHEET_KEYWORDS = [
     "restaurants", "bars", "cafes", "nightlife", "deli", "bakery", "night life",
-    "nightclubs", "breweries", "local food","beverages","drinks",
+    "nightclubs", "breweries", "local food","beverages","drinks","wine tasting",
 ]
 
 # ─── Words to Omit When Generating Word-by-Word Tags ──────────────────────────
@@ -115,6 +115,7 @@ CONTENT_RULES = {
     # ─── Food Rule Map ────────────────────────────────────────────────────────────
     "adult entertainment":   ["#StripClub"],
     "adult entertainment club": ["#StripClub"],
+    "wine tasting":           ["#WineTasting"],
     "bakery":  ["#Bakery"],
     "cake":             ["#Bakery"],
     "south indian":          ["#SouthIndian", "#Indian"],
