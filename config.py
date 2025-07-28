@@ -9,8 +9,8 @@ FINAL_MASTER_SHEET_NAME = "Final MasterSheet"
 # Name to assign to the consolidated food sheet
 
 # ─── File Paths ───────────────────────────────────────────────────────────────
-INPUT_FILE  = r"I:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Sudip Paul\Ready to create hashtags\Cleaned Marseille Data.xlsx"
-OUTPUT_FILE = r"I:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Subhojyoti\Hashtags Completed Data\FINAL Marseille.xlsx"
+INPUT_FILE  = r"K:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Sudip Paul\Ready to create hashtags\Cleaned Data with ActivityId\Cleaned Tokyo data.xlsx"
+OUTPUT_FILE = r"K:\My Drive\HireThen\Internal - Flyberg Content\Location Scrapping Info\Subhojyoti\Hashtags Completed Data\FINAL Tokyo.xlsx"
 
 # Map of “dominant” hashtags → a set of hashtags to remove when the dominant one is present
 CONFLICT_HASHTAG_MAP = {
@@ -44,7 +44,7 @@ CONFLICT_HASHTAG_MAP = {
 # ─── Keywords for Identifying Food Sheets ────────────────────────────────────
 FOOD_SHEET_KEYWORDS = [
     "restaurants", "bars", "cafes", "nightlife", "deli", "bakery", "night life",
-    "nightclubs", "breweries", "local food","beverages","drinks","wine tasting",
+    "nightclubs", "breweries", "local food","beverages","drinks","wine tasting","coffee tastings"
 ]
 
 # ─── Words to Omit When Generating Word-by-Word Tags ──────────────────────────
@@ -53,7 +53,7 @@ OMIT_WORDS = {
     "joint", "pub", "nightlife", "spot", "fine","dining", "eatery","grill", "delivery service",
     "fast food", "family", "vegan", "vegetarian", "vegan-friendly","Gluten-free","shop","new",
     }
-# ─── Exclusions & Plural-Priority ─────────────────────────────────────────────
+# ─── Excluded Hashtags ─────────────────────────────────────────────
 EXCLUDED_TYPE_HASHTAGS = {
     "#GlutenFree",
     "#Vegan",  
